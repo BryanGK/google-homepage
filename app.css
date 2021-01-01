@@ -35,7 +35,7 @@
     display: inline;
     float: left;
     text-align: center;
-    padding-top: 10px;
+    padding-top: 5px;
 }
 
 .right_align {
@@ -43,4 +43,18 @@
     float: right;
     text-align: center;
     
+}
+
+.space{
+    height: 105px;
+}
+
+#logo {
+    display: flex;
+    justify-content: center;
+}
+
+#search {
+    display: flex;
+    justify-content: center;
 }
