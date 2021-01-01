@@ -1,9 +1,46 @@
 #top_nav ul {
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding: 10px;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.0)
 }
 
 #top_nav li {
     display: inline;
+}
+
+#top_nav a {
+    padding: 0;
+    text-decoration: none;
+    padding: 0 8px 0 8px;
+    font-family: arial, sans-serif;
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.87)
+}
+
+#top_nav a:hover {
+    text-decoration: underline;
+}
+
+#user_pic {
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    vertical-align: middle;
+    
+}
+
+.left_align {
+    display: inline;
+    float: left;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.right_align {
+    display: inline;
+    float: right;
+    text-align: center;
+    
 }
