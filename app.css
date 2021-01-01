@@ -1,7 +1,9 @@
-h1 {
-    background-color: aqua;
+#top_nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
-p {
-    background-color: blueviolet;
+#top_nav li {
+    display: inline;
 }
