@@ -16,7 +16,7 @@
     padding: 0 8px 0 8px;
     font-family: arial, sans-serif;
     font-size: 13px;
-    color: rgba(0, 0, 0, 0.87)
+    color: rgba(0, 0, 0, 0.87);
 }
 
 #top_nav a:hover {
@@ -55,6 +55,59 @@
 }
 
 #search {
-    display: flex;
+    width: 484px;
+    height: 46px;
+    margin: auto;
+    margin-top: 31px;
+    border-radius: 25px;
+    border-width: 0.5px;
+    border-color: rgba(0, 0, 0, 0.15);
+}
+
+#search_ico {
+    height: 21px;
+    width: 20px;
+    position: relative;
+    bottom: 34px;
+    left: 14px;
+}
+
+#voice {
+    height: 20px;
+    position: relative;
+    left: 424px;
+    bottom: 34px;
+}
+
+#grid {
+    height: 20px;
+    vertical-align: middle;
+}
+
+.button {
     justify-content: center;
+    align-items: center;
+    margin: 30px 8px;
+    display: flex;
+    
+    border-radius: 5px;
+    border: none;
+}
+
+#g_s {
+    width: 135px;
+    height: 37px;
+    background-color: rgba(0, 0, 0, 0.03);
+    color:rgba(0, 0, 0, 0.75);
+    font-size: 14px;
+    font-family: arial, sans-serif;
+}
+
+#i_f_l {
+    width: 135px;
+    height: 37px;
+    background-color: rgba(0, 0, 0, 0.03);
+    color: rgba(0, 0, 0, 0.75);
+    font-size: 14px;
+    font-family: arial, sans-serif;
 }
