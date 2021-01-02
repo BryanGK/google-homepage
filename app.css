@@ -1,9 +1,13 @@
+body {
+    margin: 0;
+}
+
 #top_nav ul {
     list-style-type: none;
     margin: 0;
     padding: 10px;
     overflow: hidden;
-    background-color: rgba(0, 0, 0, 0.0)
+    background-color: rgba(0, 0, 0, 0.0);
 }
 
 #top_nav li {
@@ -52,6 +56,7 @@
 #logo {
     display: flex;
     justify-content: center;
+   
 }
 
 #search {
@@ -63,6 +68,7 @@
     border-width: 0.5px;
     border-color: rgba(0, 0, 0, 0.15);
 }
+
 
 #search_ico {
     height: 21px;
@@ -110,4 +116,59 @@
     color: rgba(0, 0, 0, 0.75);
     font-size: 14px;
     font-family: arial, sans-serif;
+}
+
+#lang {
+    font-family: arial, sans-serif;
+    font-size: 13px;
+    text-align: center;
+    margin-top: -25px
+}
+
+#lang a {
+    text-decoration: none;
+}
+
+#lang a:hover{
+    text-decoration: underline;
+}
+
+#btm_nav ul {
+    list-style-type: none;
+    text-align: center;
+    /* padding: 10px; */
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.0);
+    
+}
+
+#btm_nav li {
+    display: inline;
+}
+
+#btm_nav a {
+    padding: 0;
+    text-decoration: none;
+    padding: 0 8px 0 8px;
+    font-family: arial, sans-serif;
+    font-size: 13px;
+    color: rgb(112, 112, 112);
+}
+
+#btm_nav p {
+    font-family: arial, sans-serif;
+    font-size: 15px;
+    padding: 10px 20px;
+    color: rgb(112, 112, 112);
+    border-top: 1px solid rgb(216, 216, 216);
+    border-bottom: 1px solid rgb(216, 216, 216);
+    margin: 0;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    background-color:rgba(0, 0, 0, 0.05);
+    width: 100%;
+    height: 125px;
 }
